@@ -59,7 +59,7 @@ header {
   border: 5px solid rgb(255, 255, 255);
   border-radius: 4px;
   text-decoration: none;
-  background-color: #0b72a1;
+  background-color: #1f323a;
 }
 
 .error {
@@ -102,8 +102,8 @@ header {
   margin-top: 15px;
   border-radius: 50%;
   border: 3px solid #201e1e;
-  width: 250%;
-  height: 350%;
+  width: 150%;
+  height: 200%;
 
 }
 
@@ -115,7 +115,7 @@ h1 {
 
 h2 {
   margin: 2%;
-  color: #615858;
+  color: #b7c6d3;
   line-height: 1.1;
 }
 h3 {
@@ -135,15 +135,15 @@ h3 {
   text-align: center;
 }
 
-#start {
+#start button {
  margin-left: 30%;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1rem;
-  transform: rotate(1.3deg);
-  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
-  background-color: #6ac9d6;
+  background-color: #31909c;
   font-size: 2rem;
   width: 400px;
+  border-radius: 30px;
+  border: 5px solid transparent;
 }
 
 
@@ -155,18 +155,18 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #4d4040;
+  background-color: #4faaaa;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 .bottom a {
-color: #16195e
+color: #dedeeb
 
 }
 
 button:hover {
-  border-color: #101472;
+  border-color: #4d4e70;
 }
 button:focus,
 button:focus-visible {
@@ -186,7 +186,7 @@ button:focus-visible {
 
 .my-studies {
   display: flex;
-  margin: 3%;
+  margin: 1%;
   gap: 5%;
 
 }
@@ -206,7 +206,7 @@ button:focus-visible {
   border-radius: 25px 25px 0 0;
   height: 100px;
   width: 100%;
-  background-color: #e4ccd6;
+  background-color: #423d3f;
   position: absolute;
   top: 0;
   left: 0;
@@ -215,7 +215,7 @@ button:focus-visible {
 
 .name {
   font-size: 2em;
-  color: #2d3436;
+  color: #b2cad1;
   display: flex;
   flex: 1;
   margin: 10% 20px 0;
@@ -226,11 +226,12 @@ button:focus-visible {
 }
 .bottom {
   margin-top: 120px;
+  color: #3c5058;
 }
 
 .circle-img {
   border-radius: 50%;
-  border: 7px solid #fff;
+  border: 2px solid #c21313;
   width: 120px;
   height: 120px;
 }

@@ -15,7 +15,7 @@ function Contact() {
  
     return (
         <div className="contact">
-        <h3>Contact Us</h3>
+        <h3>Contact Me</h3>
         <form>
           <label>
             <span>Enter your email:</span>

@@ -7,14 +7,13 @@ import {
 import React from "react";
 
 //pages
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import About from "./pages/About";
-import FAQ from './pages/FAQ';
+import FAQ from './pages/freeTime';
 import Contact from './pages/contact';
 import Error from './pages/Error';
 
 //layout
-
 import HelpLayOut from './layouts/HelpLayOut';
 import RootLayOut from './layouts/rootLayOut';
 
