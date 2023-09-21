@@ -8,10 +8,9 @@ import React from "react";
 
 //pages
 import Home from "./pages/home/Home";
-import About from "./pages/About";
-import FAQ from './pages/freeTime';
-import Contact from './pages/contact';
-import Error from './pages/Error';
+import About from "./pages/about/About";
+import FAQ from './pages/contact/freeTime';
+import Contact from './pages/contact/Contact';
 
 //layout
 import HelpLayOut from './layouts/HelpLayOut';
@@ -26,7 +25,6 @@ const router = createBrowserRouter(
         <Route path="FAQ" element={<FAQ />} />
         <Route path="Contact" element={<Contact />} />
       </Route>
-       <Route path="*" element={<Error />} />
     </Route>
   )
 );
