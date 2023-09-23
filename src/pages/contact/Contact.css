@@ -1,0 +1,159 @@
+
+
+.help-layout {
+    max-width: 900px;
+    background-color: rgb(215, 225, 235);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px ;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  
+  .help-layout h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .connection {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+ 
+  .help-layout p {
+    font-size: 1em;
+    color: #2c2b2b;
+    margin-bottom: 30px;
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #31353a;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #8897a7;
+  }
+  
+  /* Outlet */
+  main {
+    margin-top: 20px;
+  }
+  
+
+
+
+.contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .contact h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    margin-bottom: 20px;
+  }
+  
+  .contact label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact span {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #808fa0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #7e848a;
+  }
+  
+  .submitt p {
+    font-size: 1em;
+    color: #313030;
+  }
+
+
+  /* free time */
+
+  
+.free-time {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+ 
+  .free-time h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+  .free-time button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .free-time button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .free-time p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  

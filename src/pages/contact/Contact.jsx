@@ -48,7 +48,7 @@ function Contact() {
         <button type="submit">Submit</button>
       </form>
       {submittedEmail && (
-        <div>
+        <div className="submitt">
           <p>Submitted Email: {submittedEmail}</p>
           <p>Submitted Message: {submittedMsg}</p>
         </div>
