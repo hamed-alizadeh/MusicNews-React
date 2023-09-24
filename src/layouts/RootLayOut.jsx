@@ -15,6 +15,8 @@ return (
         <NavLink to="/">Home page</NavLink>
         <NavLink to="/about">About me</NavLink>
         <NavLink to="/help">contact me</NavLink>
+        <NavLink to="/Login">Login</NavLink>
+        <NavLink to="/SignUp">Sign-up</NavLink>
         
       </nav>
     </header>

@@ -9,12 +9,14 @@ import React from "react";
 //pages
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
-import FAQ from './pages/contact/freeTime';
+import freeTime from './pages/contact/freeTime';
 import Contact from './pages/contact/Contact';
+import Login from './pages/Login/Login'; 
+import SignUp from './pages/Login/SignUp';
 
 //layout
 import HelpLayOut from './layouts/HelpLayOut';
-import RootLayOut from './layouts/rootLayOut';
+import RootLayOut from './layouts/RootLayOut';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,9 +24,11 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="help" element={<HelpLayOut />}>
-        <Route path="FAQ" element={<FAQ />} />
+        <Route path="freeTime" element={<freeTime />} />
         <Route path="Contact" element={<Contact />} />
       </Route>
+      <Route path="login" element={<Login />} />
+      <Route path="SignUp" element={<SignUp />} />
     </Route>
   )
 );

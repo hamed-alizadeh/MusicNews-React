@@ -4,7 +4,7 @@ function freeTime() {
   const [selectedOption, setSelectedOption] = useState(null);
 
   return (
-    <div>
+    <div className='free-time'>
       <h1>Free Time Activities</h1>
       <button onClick={() => setSelectedOption(1)}>Activity 1</button>
       <button onClick={() => setSelectedOption(2)}>Activity 2</button>

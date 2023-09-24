@@ -5,12 +5,25 @@ function HelpLayOut () {
  return (
  <div className="help-layout">
   <div className="connection">
-    <h2>contact me</h2>
-    <p>Connection paths that I will put here! jgjsbjkdn asbd; dk.bs;d sd disdhjwq 90iojasdb asd assdsad</p>
+  <h3>Get in Touch!</h3>
+     <div className="f-connect">
+      <p>
+        If you have any questions or would like to chat about my projects or
+        experiences, feel free to drop me a message. I'd be happy to connect!
+      </p>
+      </div>
+      <h3>Ask Me Anything!</h3>
+      <div className="s-connect">
+      <p>
+        Based on my free time activities, if you have any questions or would like
+        to know more about my interests, feel free to ask! I'm always eager to
+        share and discuss.
+      </p>
+      </div>
   </div>
   <div>
     <nav>
-    <NavLink to="FAQ">My Free Time</NavLink>
+    <NavLink to="freeTime">My Free Time</NavLink>
     <NavLink to="contact">Contact me</NavLink>
     </nav>
     <main>

@@ -23,7 +23,23 @@
     padding: 20px;
     font-family: 'Arial', sans-serif;
   }
-  
+
+
+  .connection h3 {
+    font-size: 1.3rem;
+  }
+
+  .f-connect {
+    background-color: #c0c6ce;
+    padding: 7PX;
+    border-radius: 10PX;
+  }
+
+  .s-connect {
+    background-color: #c0c6ce;
+    padding: 7PX;
+    border-radius: 10PX;
+  }
  
   .help-layout p {
     font-size: 1em;
