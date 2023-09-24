@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 20px;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(215, 225, 235);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
   }
   
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     font-size: 2.5em;
-    color: #333;
+    color: #000000;
     margin-bottom: 20px;
   }
   
@@ -34,25 +34,25 @@
     margin-right: 10px;
   }
   
-  .glc {
+  #glc {
     display: inline-block;
-    padding: 10px 20px;
+    margin: 5px 10px;
+    padding: 10px 30px;
     font-size: 1em;
     color: #fff;
-    background-color: #71869c;
+    background-color: #555555;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s;
   }
   
-  .glc a {
-    color: #fff;
+  #glc a {
+    color: #e2dfdf;
     text-decoration: none;
   }
   
-  .glc:hover {
-    background-color: #0056b3;
+#glc:hover {
+    background-color: #363636;
   }
   

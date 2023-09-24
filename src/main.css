@@ -1,9 +1,9 @@
   body {
-    background-color: #c5d4d3;
+    background-color: #ffffff;
   }
   /* Style the navbar */
 .navbar {
-    background-color: #26404b;
+    background-color: #2e2e2e;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
     border-radius: 25px;
     position: relative;
     padding: 25px 15px;
-    background-color: #8499aa;
+    background-color: #383838;
     width: 600px; 
     box-shadow: 0 2px 5px #ccc;
     text-align: left;
@@ -101,13 +101,13 @@
     border-radius: 25px 25px 0 0;
     height: 100px;
     width: 100%;
-    background-color: #b2cecd;
+    background-color: #636363;
     display: flex;
   }
   
   .name {
     font-size: 1.5em;
-    color: #2d3436;
+    color: #fcfeff;
     flex: 1;
     margin: 10% 20px 0;
   }
@@ -138,37 +138,39 @@
   
   .info {
     margin: 20px 0;
-    color: #1b1d1d;
+    color: #f9ffff;
   }
 
   
   .album-section {
     text-align: center;
     justify-content: space-between;
-  margin: 20px 0;
+  margin: 10px 0;
   height: 45vh;
   margin-top: 5%;
   }
   
   .album-header {
-    background-color: #343f3f;
+    background-color: #ffffff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
-    padding: 20px 20px;
-    margin: 10px 90px;
+    padding: 2px 2px;
+    margin: 5px 50px;
+    border: 2px;
   }
   
   .album-header h1 {
     font-family: 'fantasy', sans-serif;
     font-size: 2em;
-    color: #b6c3c7;
-    margin: 0;
+    color: #000000;
+    margin-top: 50px;
   }
   
   .album-entry {
     display: inline-block;
-    margin: 20px;
+    padding: 2px;
+    margin: 1px 30px;
     position: relative;
     cursor: pointer;
     transition: transform 0.3s;
@@ -207,13 +209,13 @@
   
   .album-details h4 {
     font-size: 1em;
-    color: #0984e3;
+    color: #3d3d3d;
     margin-bottom: 10px;
   }
   
   .album-details p {
     font-size: 0.9em;
-    color: #636e72;
+    color: #0e2229;
     line-height: 1.5;
   }
 
@@ -232,10 +234,11 @@
   
   .my-component button {
     font-family: 'fantasy', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 12px 24px; 
     margin: 15px 30px; 
-    background-color: #809796;
+    background-color: #1e1f1f;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -259,10 +262,9 @@
   padding: 20px;
   margin: 0px 50px;
   text-align: center;
-  box-shadow: 0 2px 5px #ccc;
-  font-size: 18px; /* Slightly larger font size for better readability */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean and widely supported sans-serif font */
-  line-height: 1.6; /* Improved line spacing for easier reading */
+  font-size: 18px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  line-height: 1.5; 
 }
 
 .cover-letter1 p,
@@ -278,12 +280,12 @@
 /* Creat-Area */
 
 .create-area {
-    max-width: 500px;
+    max-width: 700px;
     margin: 20px auto;
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   }
   
   .create-area form {
@@ -294,8 +296,9 @@
   .create-area input,
   .create-area textarea {
     margin-bottom: 10px;
+    margin-right: 5px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #554e4e;
     border-radius: 5px;
     font-size: 16px;
   }
@@ -306,7 +309,7 @@
   
   .create-area button {
     padding: 10px 20px;
-    background-color: #495555;
+    background-color: #3a3b3b;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -324,10 +327,11 @@
 /* Note */
 
 .note {
-    background-color: #a3d0d1;
+    background-color: #e3eaeb;
     border-radius: 10px;
     padding: 20px;
     margin: 20px 50px;
+    width: 20%;
     box-shadow: 0 2px 5px #ccc;
   }
   
@@ -349,8 +353,8 @@
   .note button {
     font-family: sans-serif;
     font-size: 1em;
-    color: #fff;
-    background-color: #812121;
+    color: #141212;
+    background-color: #c09999;
     border: none;
     padding: 8px 16px;
     border-radius: 5px;
@@ -359,7 +363,7 @@
   }
   
   .note button:hover {
-    background-color: #ff7675;
+    background-color: #eb0d0d;
   }
 
   /* footer */
@@ -367,7 +371,7 @@
   
 /* Footer Styles */
 footer {
-    background-color: #adb5bd;
+    background-color: #414141;
     padding: 50px 0;
     text-align: center;
   }
@@ -379,18 +383,18 @@ footer {
   
   #f-header h2 {
     font-size: 1.5em;
-    color: #333;
+    color: #fffefe;
   }
   
   #f-body h3 {
     font-size: 1.2em;
-    color: #333;
+    color: #fffdfd;
     margin-top: 20px;
   }
   
   #f-footer {
     margin-top: 30px;
-    color: #636e72;
+    color: #f7f8f8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,13 +402,13 @@ footer {
   
   #f-footer p {
     font-size: 0.9em;
-    color: #666;
+    color: #dddcdc;
     margin-left: 10px;
   }
   
   .contact-info p {
     font-size: 0.9em;
-    color: #666;
+    color: #ada5a5;
     margin: 10px 0;
   }
   
